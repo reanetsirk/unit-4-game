@@ -1,0 +1,9 @@
+body {
+    background-image: url("crystalpicture.jpeg")
+}
+
+div {
+    background-color: purple;
+    margin: 10px;
+    width: 25%;
+}
