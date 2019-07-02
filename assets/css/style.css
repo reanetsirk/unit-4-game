@@ -1,9 +1,98 @@
-body {
-    background-image: url("crystalpicture.jpeg")
+div {
+    background-color: rgba(240, 121, 240, 0.829);
+    margin: 15px;
+    width: 60%;
+    border: solid 1px black;
+    padding: 25px;
 }
 
-div {
+h1,
+h3,
+span {
+    font-weight: bold;
+    text-align: center;
+
+}
+
+h1 {
+    font-size: 40pt;
+}
+
+ol {
+    list-style: decimal inside;
+}
+
+ul {
+    list-style-type: disc inside;
+    text-indent: 20px;
+}
+
+
+div.container-header-fluid-center,
+div.Instructions-for-Crystal-Collector {
+    width: 60%;
+    clear: both;
+}
+
+
+
+/* .crystal{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} */
+
+/* .crystal{
+    border:1px solid green */
+
+/* } */
+
+/* *
+{margin: 0; padding: 0;}
+
+form{
+    width: 460px;
+    margin: 10px auto;
+    border: 1px solid red;
+}
+
+input{
+    width: 100%;
+    display: block;
+    padding: 10px 0;
+    margin: 5px 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+h2{
+    font-family: cursive;
+    font-size: 60px;
+    margin-bottom:10px;
+}
+body{
     background-color: purple;
-    margin: 10px;
-    width: 25%;
+    width: 4000px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}   */
+
+@media screen and (mid-width:456px) {
+    #h2 {
+        background: #4aaaa5;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #h1 {
+        background: yellow;
+    }
+}
+
+@media screen and (max-width: 888px) {
+    #div {
+        background: blue;
+    }
 }

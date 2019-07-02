@@ -1,10 +1,257 @@
-// $( document ).ready(function(){
+// console.log("this better work");
+
+// // speudo coding saves time
+// // speudo code = (what you are thinking about) What your going to be building. The output you want from it and breaking it down into a decription.
+// // This is the global variable
+
+// // this is what im thinking about in regards to the crystal game and what output i am looking for:
+// //  1. the game begines with four crystals and random result. 
+// //  2. every crystals needs to have a random number between (1-12) 
+// //  3. A new random number should be generated every single time user wins or losses to the four crystals
+// //  4. new number goes to that crystals
+// //  5. when clicking a crystals iit adds to the previewous reslut until it equals to the random result
+// // 6. if it is greater than the random result user lose and we restart the game 
+// // 7. but if it is equal we increments a win counter 
+
+// // setters 
+// // getters
+
+// // var random_results;
+// // var lost = 0;
+// // var win = 0;
+// // var previous = 0;
+
+// // ranadon_result = Math.floor(Math.random() * 69 ) + 30;
+// // // console.log(random_results);
+
+// // $("#result").html('Random Result: ' + random_results);
+
+// // for (var i = 0; i < 4; i++){
+
+// //  var random = Math.floor(Math.random() * 11) + 1;
+// // // console.log(random)
+
+// //  var crystal = $("<div>");
+// //  crystal.attr({
+// //     "class": 'crystal',
+// //     "data-random": random
+// //  });
+ 
+// //  crystal.html(random)
+
+// //  $(".crystal").append(crystal);
+// // }
+
+// // $(".crystal").on('click', function () {
+// //     var num = parseInt($(this).attr('data-random'));
+// //     previous+= num;
+
+// //     if(previos > random_results){
+// //        lost--;
+// //        $("#lost").html(lost);
+// //     }
+// // else if(previous === random_results){
+// //     win++;
+// //     $("#win").html(win);
+
+
+
+
+
+
+
+
+// // var random_result;
+// // var lost;
+// // var win;
+
+// // i<4 because there are four crystal gems
+
+// // for (var i =0; i< 4; i++){ 
+
+// // var randomNumber = Math.floor(Math.random() * 12)
+// // console.log(diamondButtonSection);
+// //     var crystal =$("diamondGem");
+// // crystal.attr("class", 'crystal');
+// //     $(".numberTomatch").append(crystal);
+  
+// // }
+
+// // $(document).ready(function () { 
+// // var rand = [];
+// // for (var r = 19; r < 120; r++) {
+// //     console.log(r);
+// // }
+// // var crystal = [];
+// // for (var c = 1; c < 13; c++) {
+// //     console.log(c);
+// // }
+// // var randNumber = [];
+// // var crystalNumbers = [];
+
+// // var c1;
+// // var c2;
+// // var c3;
+// // var c4; });
+
+// // var randomNumber = getRandomNumber (4);
+// // var guess;
+// // var guessCount = 0;
+// // var correctGuess = false;
+
+// // function getRandomNumber (upper){
+// //     var num = Math.floor(Math.random) * upper + 1;
+// //     return num;
+
+// //     for ()
+// // }
+
+
+// //  for (var i = 0; i < 4; i++) {
+// //      console.log(i)
+// //  }
+
+// var secretNumber = getRandomNumber ();
+
+//  function getRandomNumber (){
+//  return Math.ceil(Math.random() * 99);
+ 
+// //  var rand = Math.floor(Math.random() * 99);
+// //  return rand;
+ 
+// //  return Math.floor(Math.random()*99) or this instead of var rand = Math.floor(Math.random()*99)
+//  }
+//  function checkUserGuess(){ 
+
+
+//  }
+   
+//     // get the guess
+
+
+//     var guess = document.getElementById("user-guess").value;
+//     alert (guess);
+
+//     if(guess == secretNumber)
+//     {
+//         displayOutput("win");
+//     }
+//     else if (guess > secretNumber)
+//     {
+//         displayOutput("high");
+//     }
+//     else if (guess < secretNumber)
+//     {  
+//         displayOutput(low);}
+//     else{  
+//         displayOutput("error");
+//         var guess = document.getElementById("user-guess").select;
+//     }
+
+
+
+
+//     // document.getElementById("user-guess") mean go to the document. grab the element with the #id of . user guess
+    
+  
+//  //  user guess compared to the random number
+
+
+
+//   // display correct output (image and text)
+
+
+
+//  function displayOutput (result){
+// switch(result)
+//  {
+//  case "win":
+//      case "high":
+//          case "low":
+//              case "error":
+//  function reset(){
+
+//  }
+
+console.log("this better work");
+
+// speudo coding saves time
+// speudo code = (what you are thinking about) What your going to be building. The output you want from it and breaking it down into a decription.
+// This is the global variable
+
+// this is what im thinking about in regards to the crystal game and what output i am looking for:
+//  1. the game begines with four crystals and random result. 
+//  2. every crystals needs to have a random number between (1-12) 
+//  3. A new random number should be generated every single time user wins or losses to the four crystals
+//  4. new number goes to that crystals
+//  5. when clicking a crystals iit adds to the previewous reslut until it equals to the random result
+// 6. if it is greater than the random result user lose and we restart the game 
+// 7. but if it is equal we increments a win counter 
+
+// setters 
+// getters
+
+// var random_results;
+// var lost = 0;
+// var win = 0;
+// var previous = 0;
+
+// ranadon_result = Math.floor(Math.random() * 69 ) + 30;
+// // console.log(random_results);
+
+// $("#result").html('Random Result: ' + random_results);
+
+// for (var i = 0; i < 4; i++){
+
+//  var random = Math.floor(Math.random() * 11) + 1;
+// // console.log(random)
+
+//  var crystal = $("<div>");
+//  crystal.attr({
+//     "class": 'crystal',
+//     "data-random": random
+//  });
+
+//  crystal.html(random)
+
+//  $(".crystal").append(crystal);
+// }
+
+// $(".crystal").on('click', function () {
+//     var num = parseInt($(this).attr('data-random'));
+//     previous+= num;
+
+//     if(previos > random_results){
+//        lost--;
+//        $("#lost").html(lost);
+//     }
+// else if(previous === random_results){
+//     win++;
+//     $("#win").html(win);
+
+// var random_result;
+// var lost;
+// var win;
+
+// i<4 because there are four crystal gems
+
+// for (var i =0; i< 4; i++){ 
+
+// var randomNumber = Math.floor(Math.random() * 12)
+// console.log(diamondButtonSection);
+//     var crystal =$("diamondGem");
+// crystal.attr("class", 'crystal');
+//     $(".numberTomatch").append(crystal);
+
+// }
+
+// $(document).ready(function () { 
 // var rand = [];
 // for (var r = 19; r < 120; r++) {
 //     console.log(r);
 // }
 // var crystal = [];
-// for (var c = 1; c < 13; c++){
+// for (var c = 1; c < 13; c++) {
 //     console.log(c);
 // }
 // var randNumber = [];
@@ -13,261 +260,175 @@
 // var c1;
 // var c2;
 // var c3;
-// var c4;
+// var c4; });
 
-// var numberToMatch = 0;
+// var randomNumber = getRandomNumber (4);
+// var guess;
+// var guessCount = 0;
+// var correctGuess = false;
 
-// var winnner = 0;
-// var betterLuckNextTime = 0;
+// function getRandomNumber (upper){
+//     var num = Math.floor(Math.random) * upper + 1;
+//     return num;
 
-// function pickRandomNumber(arr) {
-//     var x = arr[Math.floor(math.random() * arr.length)];
-//     randNumber = x;
-//     $("#randomNumber").html(random);
-//     console.log("random number: " + randNumber);
+//     for ()
+// }
+
+//  for (var i = 0; i < 4; i++) {
+//      console.log(i)
+//  }
+
+// var secretNumber = getRandomNumber();
+
+// function getRandomNumber() {
+//     return Math.ceil(Math.random() * 99);
+
+//     //  var rand = Math.floor(Math.random() * 99);
+//     //  return rand;
+
+//     //  return Math.floor(Math.random()*99) or this instead of var rand = Math.floor(Math.random()*99)
+// }
+
+// function checkUserGuess() {
 
 // }
-// function pickRandomCrystals(arr) {
-//     for (var y = 0; y < 4; y++){
-//         var a = arr[Math.floor(Math.random() * arr.length)];
-//         crystalNumbers.push(a);
+
+// // get the guess
+
+// var guess = document.getElementById("user-guess").value;
+
+// alert(guess);
+
+// if (guess == secretNumber) {
+//     displayOutput("win");
+// } else if (guess > secretNumber) {
+//     displayOutput("high");
+// } else if (guess < secretNumber) {
+//     displayOutput("low");
+// } else {
+//     displayOutput("error");
+//     var guess = document.getElementById("user-guess").select;
+// }
+
+
+
+
+// // document.getElementById("user-guess") mean go to the document. grab the element with the #id of . user guess
+
+
+// //  user guess compared to the random number
+
+
+
+// // display correct output (image and text)
+
+
+
+// function displayOutput(result) {
+//     switch (result) {
+//         case "win":
+//         case "high":
+//         case "low":
+//         case "error":
+//             function reset() {
+
+//             }
 //     }
-//     console.log("crystal number: " + crystalNumber);
-
-// }
-// function crystalValues(arr) {
-//     for (i=0; i < arr.length; i++) {
-//         $("#gem-" + (i+1)).attr("value", arr[i]);
-//         console.log(this);
-//         }
-//         c1 = arr[0];
-//         c2 = arr[1];
-//         c3 = arr[2];
-//         c4 = arr[3];
-// }
-// function gameReset(x) {
-
-//     crystalNumbers = []; // clears crystal number values
-
-//     pickRandomNumber(rand);
-
-//     pickRandomCrystals(crystals);
-
-//     crystalValues(crystalNumbers);
-
-//     totalScore = 0;
-//     $("#totalNumber").html(totalScore);
-
-//     setTimeout(alert(x), 2000);
-// } // END of gameReset function
-
-// // *** GAME SETTINGS AT START ***
-
-// pickRandomNumber(rand); // random number to match
-// pickRandomCrystals(crystals); // array of random crystal values
-// crystalValues(crystalNumbers);
-
-//     // crystal button functions
-
-//     $("#button-1").on("click", function() {
-
-//         totalScore += c1;
-//         $("#totalNumber").html(totalScore);
-//     });
-
-//     $("#button-2").on("click", function() {
-
-//         totalScore += c2;
-//         $("#totalNumber").html(totalScore);
-//     });
-
-//     $("#button-3").on("click", function() {
-
-//         totalScore += c3;
-//         $("#totalNumber").html(totalScore);
-//     });
-
-//     $("#button-4").on("click", function() {
-
-//         totalScore += c4;
-//         $("#totalNumber").html(totalScore);
-//     });
-
-// $("button").on("click", function() {
-//     // this is what happens if the user wins
-//     if (totalScore == randNumber) {
-
-//         wins++;
-//         console.log(totalScore);
-//         $("#totalNumber").html(totalScore);
-//         $("#wins").html("Wins: " + wins);
-
-
-//         gameReset("YOU WIN!!");
-//     }
-
-//     else if (totalScore > randNumber){
-
-//         losses++;
-//         $("#totalNumber").html(totalScore);
-//         $("#losses").html("Losses: " + losses);
-
-//         gameReset("WOMP-WOMP...YOU LOSE!");
-//     }
-// });
-
-// }); // end of script
-
 // }
 
-$(index.html).ready(function() {
 
-	// ******* NUMBER ARRAYS *******
-
-	// random computer variable array
-	var rand = [];
-
-	for (var r = 19; r < 121; r++) {
-		rand.push(r);
-	}
-
-	// crystal numbers array
-	var crystals = [];
-
-	for (var c = 1; c < 13; c++) {
-
-		crystals.push(c);
-	}
-
-	// console.log(crystals);
-
-	// ******* GLOBAL VARIABLES *******
-
-	// random variables selected by computer
-	var randNumber; // number to match
-	var crystalNumbers = []; // for array of random crystal values
-
-	var c1;
-	var c2;
-	var c3;
-	var c4;
-
-  var totalScore = 0; // user's score
-
-	var wins = 0;
-	var losses = 0;
-
-	// ******* FUNCTIONS *******
-
-	// pick a random number
-	function pickRandomNumber(arr) {
-
-		var x = arr[Math.floor(Math.random() * arr.length)];
-		randNumber = x;
-		$("#randomNumber").html(randNumber);
-
-		console.log("random number: " + randNumber);
-
-	} // END of pickRandomNumber function
-
-	// pick random numbers for crystals
-
-	function pickRandomCrystals(arr) {
-
-		for (var y = 0; y < 4; y++){
-
-			var a = arr[Math.floor(Math.random() * arr.length)];
-
-			crystalNumbers.push(a);
-		}
-    // check which numbers have been picked
-		console.log("crystal numbers: " + crystalNumbers);
-
-	} // END of pickRandomCrystals function
-
-	function crystalValues(arr) {
-
-		// change value of each crystal button according to array
-		for (i = 0; i < arr.length; i++) {
-
-		$("#button-" + (i+1)).attr("value", arr[i]);
-		console.log(this);
-		}
-		c1 = arr[0];
-		c2 = arr[1];
-		c3 = arr[2];
-		c4 = arr[3];
-	} // END of crystalValues function
-
-	function gameReset(x) {
-
-		crystalNumbers = []; // clears crystal number values
-
-		pickRandomNumber(rand);
-
-		pickRandomCrystals(crystals);
-
-		crystalValues(crystalNumbers);
-
-		totalScore = 0;
-		$("#totalNumber").html(totalScore);
-
-		setTimeout(alert(x), 2000);
-	} // END of gameReset function
-
-	// *** GAME SETTINGS AT START ***
-
-	pickRandomNumber(rand); // random number to match
-	pickRandomCrystals(crystals); // array of random crystal values
-	crystalValues(crystalNumbers);
-
-		// crystal button functions
-
-		$("#button-1").on("click", function() {
-
-			totalScore += c1;
-			$("#totalNumber").html(totalScore);
-		});
-
-		$("#button-2").on("click", function() {
-
-			totalScore += c2;
-			$("#totalNumber").html(totalScore);
-		});
-
-		$("#button-3").on("click", function() {
-
-			totalScore += c3;
-			$("#totalNumber").html(totalScore);
-		});
-
-		$("#button-4").on("click", function() {
-
-			totalScore += c4;
-			$("#totalNumber").html(totalScore);
-		});
-
-	$("button").on("click", function() {
-		// this is what happens if the user wins
-		if (totalScore == randNumber) {
-
-			wins++;
-			console.log(totalScore);
-			$("#totalNumber").html(totalScore);
-			$("#wins").html("Wins: " + wins);
-
-
-			gameReset("YOU WIN!!");
-		}
-
-		else if (totalScore > randNumber){
-
-			losses++;
-			$("#totalNumber").html(totalScore);
-			$("#losses").html("Losses: " + losses);
-
-			gameReset("WOMP-WOMP...YOU LOSE!");
-		}
-	});
-
-}); // end of script
+$( document ).ready(function(){
+    var Random=Math.floor(Math.random()*101+19)
+    // Selects a random number to be shown at the start of the game
+    // Number should be should be between 19 - 120
+    $('#randomNumber').text(Random);
+    // Appending random number to the randomNumber id in the html doc
+    //
+    var num1= Math.floor(Math.random()*11+1)
+    var num2= Math.floor(Math.random()*11+1)
+    var num3= Math.floor(Math.random()*11+1)
+    var num4= Math.floor(Math.random()*11+1)
+    // Setting up random numbers for each jewel
+    // Random number has to be between 1 - 12
+    // 
+    var userTotal= 0; 
+    var wins= 0;
+    var losses = 0;
+    //  Decaring variables for tallies
+  $('#numberWins').text(wins);
+  $('#numberLosses').text(losses);
+  //resets the game
+  function reset(){
+        Random=Math.floor(Math.random()*101+19);
+        console.log(Random)
+        $('#randomNumber').text(Random);
+        num1= Math.floor(Math.random()*11+1);
+        num2= Math.floor(Math.random()*11+1);
+        num3= Math.floor(Math.random()*11+1);
+        num4= Math.floor(Math.random()*11+1);
+        userTotal= 0;
+        $('#finalTotal').text(userTotal);
+        } 
+  //adds the wins to the userTotal
+  function yay(){
+  alert("You won!");
+    wins++; 
+    $('#numberWins').text(wins);
+    reset();
+  }
+  //addes the losses to the userTotal
+  function loser(){
+  alert ("You lose!");
+    losses++;
+    $('#numberLosses').text(losses);
+    reset()
+  }
+  //sets up click for jewels
+    $('#one').on ('click', function(){
+      userTotal = userTotal + num1;
+      console.log("New userTotal= " + userTotal);
+      $('#finalTotal').text(userTotal); 
+            //sets win/lose conditions
+          if (userTotal == Random){
+            yay();
+          }
+          else if ( userTotal > Random){
+            loser();
+          }   
+    })  
+    $('#two').on ('click', function(){
+      userTotal = userTotal + num2;
+      console.log("New userTotal= " + userTotal);
+      $('#finalTotal').text(userTotal); 
+          if (userTotal == Random){
+            yay();
+          }
+          else if ( userTotal > Random){
+            loser();
+          } 
+    })  
+    $('#three').on ('click', function(){
+      userTotal = userTotal + num3;
+      console.log("New userTotal= " + userTotal);
+      $('#finalTotal').text(userTotal);
+  //sets win/lose conditions
+            if (userTotal == Random){
+            yay();
+          }
+          else if ( userTotal > Random){
+            loser();
+          } 
+    })  
+    $('#four').on ('click', function(){
+      userTotal = userTotal + num4;
+      console.log("New userTotal= " + userTotal);
+      $('#finalTotal').text(userTotal); 
+        
+            if (userTotal == Random){
+            yay();
+          }
+          else if ( userTotal > Random){
+            loser();
+          }
+    });   
+  }); 
