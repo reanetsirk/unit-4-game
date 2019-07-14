@@ -15,7 +15,7 @@
 
 <body>
     <div class="container">
-        <div class="jumbotron" style="background-color: blue; color; white;">
+        <div class="jumbotron" style="background-color: blue; color: white;">
             <div class="container">
                 <h1 class="text-center"><strong>Crystal Collector</strong></h1>
             </div>
@@ -71,13 +71,22 @@
                 <div class="col-lg-3">
                     <div class="panel panel-primary">
                         <div class="panel-heading">
-                            <h3 class="panel-title text-center">Target Secret</h3>
+                            <h3 class="panel-title text-center">Target Score</h3>
                         </div>
+
                         <div class="panel-body">
-                            <h3 class="text-center"><strong>Your Score</strong></h3>
+                            <h3 class="text-center" id="targetScore">2</h3>
                         </div>
                     </div>
 
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h3 class="text-center" id="yourScore"></h3>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="panel panel-primary">
@@ -118,7 +127,7 @@
                     </div>
                 </div>
             </div>
-
+<script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
             <script src="assets/javascript/game.js"></script>
             <script type="text/javascript"></script>
         </div>
