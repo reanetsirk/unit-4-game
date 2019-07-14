@@ -1,4 +1,4 @@
-div {
+/* div {
     background-color: rgba(240, 121, 240, 0.829);
     margin: 15px;
     width: 60%;
@@ -31,7 +31,7 @@ ul {
 div.container-header-fluid-center,
 div.Instructions-for-Crystal-Collector {
     width: 60%;
-    clear: both;
+    clear: both; */
 }
 
 
@@ -78,7 +78,7 @@ body{
     border-radius: 5px;
     text-align: center;
 }   */
-
+/* 
 @media screen and (mid-width:456px) {
     #h2 {
         background: #4aaaa5;
@@ -95,4 +95,4 @@ body{
     #div {
         background: blue;
     }
-}
+} */
